@@ -191,10 +191,10 @@ function duration(data) {
   data.forEach(workout => {
     workout.exercises.forEach(exercise => {
       durations.push(exercise.duration);
-      console.log("duration -> exercise.duration", exercise.duration)
+      // console.log("duration -> exercise.duration", exercise.duration)
     });
   });
-  console.log("durations", durations)
+  // console.log("durations", durations)
   return durations;
 
   // console.log(data);
